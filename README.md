@@ -30,7 +30,7 @@ module "lb_dsr_script" {
 # インストール元アーカイブ
 data "sakuracloud_archive" "centos" {
     filter = {
-	name = "Name"
+        name = "Name"
         values = ["CentOS 7.2 64bit"]
     }
 }
